@@ -38,7 +38,7 @@
 
 [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/alllike996/SubsTracker)
 
-
+fork之后要修改一键部署的github用户名
 > 适用于新部署的,以前部署过的直接替换js中的内容即可!
 
 ## 📋 三步开始使用
