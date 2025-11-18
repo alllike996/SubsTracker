@@ -74,6 +74,20 @@ Fork仓库,然后点击自己仓库里的部署按钮，等待部署完成,**注
 - **推送 URL**: 根据所使用的 Webhook 服务或自建接口填写，例如 `https://your-service.com/hooks/notify`
 - 支持自定义请求方法、请求头与消息模板
 - **模板占位符**：`{{title}}`、`{{content}}`、`{{tags}}`（多行形式）、`{{tagsLine}}`、`{{timestamp}}`、`{{formattedMessage}}`
+- 使用飞书机器人推送，设置参数
+```bash
+{
+  "message_type": "text",
+  "content": {
+    "tags": "{{内容}}",
+    "tagsLine": "{{内容}}",
+    "timestamp": "{{内容}}",
+    "title": "{{内容}}"
+  }
+}
+```
+![](public/image/xinxineirong.jpeg)
+
 
 ### Bark（iOS 推送）
 - **服务器地址**：默认 `https://api.day.app`，也可使用自建服务器
